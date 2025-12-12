@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background: #111;
+            color: #fff;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            padding: 50px 0;
+        }
+
+        section {
+            margin-bottom: 60px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            border-left: 4px solid #111;
+            padding-left: 10px;
+        }
+
+        .about-text {
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .project-box {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+
+        .project-box:hover {
+            transform: translateY(-5px);
+        }
+
+        footer {
+            background: #111;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9rem;
+            margin-top: 40px;
+        }
+
+        .contact a {
+            text-decoration: none;
+            color: #111;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- HERO SECTION -->
+    <header>
+        <h1>Santosh Kumar M</h1>
+        <p>Filmmaker · Editor · Creative Director</p>
+    </header>
+
+    <div class="container">
+
+        <!-- ABOUT -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p class="about-text">
+                Myself, Santosh Kumar M and i hail from engineering background. i like to write scripts addressing which directors dont, my passion for
+                storytelling i cant tell in wordssss, since 19 years i m working on this film making, my speciality is thinking big and postponing the shortfilms for big time
+            </p>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="projects">
+
+                <div class="project-box">
+                    <h3>Mana chitram</h3>
+                    <p>Small description about what this project is, what you did, what the story is.</p>
+                </div>
+
+                <div class="project-box">
+                    <h3>Ad Film – Café</h3>
+                    <p>Description about the ad film you shot for café, the style, the approach, etc.</p>
+                </div>
+
+                <div class="project-box">
+                    <h3>Brand Video</h3>
+                    <p>Description of another project. Add YouTube/Drive link later if you want.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p class="contact">
+                Email: <a href="#">yourmail@gmail.com</a><br>
+                Instagram: <a href="#">@yourprofile</a><br>
+                Phone: <a href="#">+91 XXXXX XXXXX</a>
+            </p>
+        </section>
+
+    </div>
+
+    <footer>
+        © 2025 Your Name — All Rights Reserved
+    </footer>
+
+</body>
+</html>
